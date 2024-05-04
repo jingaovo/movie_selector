@@ -3,6 +3,7 @@
 ## Overview
 
 The Movie Selector is a web application that allows users to view and interact with a database of movies. It provides functionality to update the database with the latest movie releases, as well as to view random movies or top-rated movies.
+![Movie_selector](movie_selector.gif)
 
 ## Features
 
