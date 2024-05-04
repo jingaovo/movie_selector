@@ -7,9 +7,9 @@ app = Flask(__name__)
 def get_db_connection():
     conn = psycopg2.connect(
         host="localhost",
-        database="movies",
-        user="postgres",
-        password="jinjin.")
+        database="database_name", #edit by yourself
+        user="database_name", #edit by yourself
+        password="password_name") #edit by yourself
     return conn
 
 @app.route('/')
